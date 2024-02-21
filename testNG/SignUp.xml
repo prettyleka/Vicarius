@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Product"  parallel="false" thread-count="1">
+    <test name="SignUp" parallel="false" thread-count="1">
+        <classes >
+            <class name="Tests.SignUpTests" >
+                <methods>
+                    <include name="SignUpTest" />
+                    <include name="ChatTest"/>
+                    <include name="FrequentlyAskedQuestionsTest"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>

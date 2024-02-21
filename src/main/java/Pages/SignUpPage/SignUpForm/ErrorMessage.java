@@ -1,4 +1,4 @@
-package Pages.SignUpPage;
+package Pages.SignUpPage.SignUpForm;
 
 import lombok.Data;
 import lombok.Getter;

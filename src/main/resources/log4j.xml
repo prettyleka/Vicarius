@@ -1,26 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Configuration status="WARN">
+<Configuration status="trace" packages="Infrastructure.Utils.ReporterAppender">
     <Appenders>
         <Console name="Console" target="SYSTEM_OUT">
-            <PatternLayout pattern="[%-5level] %d{yyyy-MM-dd HH:mm:ss.SSS} - %msg%n" />
+            <PatternLayout pattern="%d{HH:mm:ss.SSS} [%t] %-5level: %msg%n"/>
         </Console>
-        <Routing name="RoutingAppender">
-            <Routes>
-                <Route>
-                    <RollingFile name="details"
-                                 fileName="test-output/logs/details.log" filePattern="logs/$${date:yyyy-MM}/app-%d{MM-dd-yyyy}-%i.log.gz"
-                                 append="true">
-                        <PatternLayout pattern="[%-5level] %d{yyyy-MM-dd HH:mm:ss.SSS} - %msg%n" />
-                        <SizeBasedTriggeringPolicy size="10 MB" />
-                    </RollingFile>
-                </Route>
-            </Routes>
-        </Routing>
+        <File name="FileAppender" fileName="../logs/TestNG_${date:yyyyMMdd_HHMMSS}.log" append="false">
+            <PatternLayout pattern="%d{HH:mm:ss.SSS} [%t] %-5level: %msg%n"/>
+        </File>
+        <Reporter name="TestReporter">
+            <PatternLayout pattern="%d{HH:mm:ss.SSS} [%t] %-5level: %msg%n"/>
+        </Reporter>
     </Appenders>
+
     <Loggers>
         <Root level="trace">
-            <AppenderRef ref="RoutingAppender" />
-            <AppenderRef ref="Console" />
+            <AppenderRef ref="Console"/>
+            <AppenderRef ref="FileAppender"/>
+            <AppenderRef ref="TestReporter"/>
         </Root>
     </Loggers>
 </Configuration>

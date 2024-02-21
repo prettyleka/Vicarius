@@ -1,0 +1,11 @@
+{
+  "browser": "CHROME",
+  "implicitlyWaitTime": 30000,
+  "url": "https://www.vicarius.io/",
+  "firstName":"Vasya",
+  "lastName": "Vasya",
+  "email": "vasya@vasya.com",
+  "wrongEmailLetter": "a",
+  "wrongEmailSymbol": "@",
+  "companyName": "Vasya"
+}
