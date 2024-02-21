@@ -1,0 +1,213 @@
+2024-02-21 03:59:29.614 [INFO ] [main] DriverCreation - Create local driver: CHROME
+2024-02-21 03:59:32.090 [INFO ] [main] ProductPage - STARTING SIGN UP TEST
+2024-02-21 03:59:36.512 [INFO ] [main] Selenium - Opened page with https://www.vicarius.io/
+2024-02-21 03:59:36.512 [INFO ] [main] ProductPage - Entered to the site
+2024-02-21 03:59:36.813 [INFO ] [main] Selenium - Find element using given locator By.xpath: //*[@id="__layout"]//button[contains(., "Product")]
+2024-02-21 03:59:36.993 [INFO ] [main] Selenium - Clicked on element using given locator By.xpath: //*[@id="__layout"]//button[contains(., "Product")]
+2024-02-21 03:59:36.994 [INFO ] [main] ProductPage - Clicked on product btn
+2024-02-21 03:59:36.998 [INFO ] [main] ProductPage - Move to the overview section
+2024-02-21 03:59:37.208 [INFO ] [main] Selenium - Find element using given locator By.xpath: //*[@id="__layout"]//span[.="Product Overview"]
+2024-02-21 03:59:37.371 [INFO ] [main] Selenium - Clicked on element using given locator By.xpath: //*[@id="__layout"]//span[.="Product Overview"]
+2024-02-21 03:59:37.372 [INFO ] [main] ProductPage - Click on watch demo btn
+2024-02-21 03:59:39.628 [INFO ] [main] Selenium - Find element using given locator By.xpath: //span[.="Watch Demo"]/parent::button
+2024-02-21 03:59:39.777 [INFO ] [main] Selenium - Clicked on element using given locator By.xpath: //span[.="Watch Demo"]/parent::button
+2024-02-21 03:59:39.778 [INFO ] [main] ProductPage - Check the video pop up
+2024-02-21 03:59:40.779 [INFO ] [main] Selenium - Check if element displayed using given locator By.xpath: //div[@class="popup-video-inner"]
+2024-02-21 03:59:40.846 [INFO ] [main] Selenium - Find element using given locator By.xpath: //div[@class="popup-video-inner"]
+2024-02-21 03:59:40.894 [INFO ] [main] ProductPage - Close the video pop up
+2024-02-21 03:59:40.991 [INFO ] [main] Selenium - Find element using given locator By.xpath: //button[@class="btn-close"]
+2024-02-21 03:59:41.100 [INFO ] [main] Selenium - Clicked on element using given locator By.xpath: //button[@class="btn-close"]
+2024-02-21 03:59:41.100 [INFO ] [main] ProductPage - Scroll to the Features section
+2024-02-21 03:59:41.142 [INFO ] [main] ProductPage - Hover with mouse over the titles of ANALYZE part of features section
+2024-02-21 03:59:41.203 [INFO ] [main] Selenium - Find element using given locator By.xpath: //*[@id="__layout"]//ul/li/h4[.="Detect CVE & Binary-Level Threats" and @class="heading hover-only"]
+2024-02-21 03:59:42.605 [INFO ] [main] Selenium - Find element using given locator By.xpath: //*[@id="__layout"]//ul/li/h4[.="Real-Time Asset Threat Analysis" and @class="heading hover-only"]
+2024-02-21 03:59:43.936 [INFO ] [main] Selenium - Find element using given locator By.xpath: //*[@id="__layout"]//ul/li/h4[.="Real-Time App Threat Analysis" and @class="heading hover-only"]
+2024-02-21 03:59:45.268 [INFO ] [main] Selenium - Find element using given locator By.xpath: //*[@id="__layout"]//ul/li/h4[.="Visualized Dashboard of a Full Network Scan" and @class="heading hover-only"]
+2024-02-21 03:59:46.554 [INFO ] [main] ProductPage - Hover with mouse over the titles of PRIORITIZE part of features section
+2024-02-21 03:59:46.641 [INFO ] [main] Selenium - Find element using given locator By.xpath: //*[@id="__layout"]//ul/li/h4[.="Personalized Prioritization" and @class="heading hover-only"]
+2024-02-21 03:59:47.980 [INFO ] [main] Selenium - Find element using given locator By.xpath: //*[@id="__layout"]//ul/li/h4[.="x_tags™" and @class="heading hover-only"]
+2024-02-21 03:59:49.320 [INFO ] [main] Selenium - Find element using given locator By.xpath: //*[@id="__layout"]//ul/li/h4[.="Asset Risk Scoring" and @class="heading hover-only"]
+2024-02-21 03:59:50.659 [INFO ] [main] Selenium - Find element using given locator By.xpath: //*[@id="__layout"]//ul/li/h4[.="Prioritization Mapping" and @class="heading hover-only"]
+2024-02-21 03:59:51.933 [INFO ] [main] ProductPage - Hover with mouse over the titles of ACT part of features section
+2024-02-21 03:59:52.011 [INFO ] [main] Selenium - Find element using given locator By.xpath: //*[@id="__layout"]//ul/li/h4[.="Eliminate Threats Swiftly & Safely" and @class="heading hover-only"]
+2024-02-21 03:59:53.339 [INFO ] [main] Selenium - Find element using given locator By.xpath: //*[@id="__layout"]//ul/li/h4[.="Recommended Action Engine" and @class="heading hover-only"]
+2024-02-21 03:59:54.659 [INFO ] [main] Selenium - Find element using given locator By.xpath: //*[@id="__layout"]//ul/li/h4[.="Real-Time Patch Management" and @class="heading hover-only"]
+2024-02-21 03:59:56.025 [INFO ] [main] Selenium - Find element using given locator By.xpath: //*[@id="__layout"]//ul/li/h4[.="Patchless Protection™" and @class="heading hover-only"]
+2024-02-21 03:59:57.308 [INFO ] [main] ProductPage - Scroll to the Proposition section
+2024-02-21 03:59:57.344 [INFO ] [main] ProductPage - Check the header test part
+2024-02-21 03:59:57.345 [INFO ] [main] Selenium - Check if element displayed using given locator By.xpath: //section[contains(@class,"section proposition")]//p[contains(.,"Never think twice about deploying a patch again. vRx’s proprietary Patchless Protection™ tool secures threats swiftly and safely by deploying a protective force field around high-risk vulnerable apps.")]
+2024-02-21 03:59:59.004 [INFO ] [main] Selenium - Find element using given locator By.xpath: //section[contains(@class,"section proposition")]//p[contains(.,"Never think twice about deploying a patch again. vRx’s proprietary Patchless Protection™ tool secures threats swiftly and safely by deploying a protective force field around high-risk vulnerable apps.")]
+2024-02-21 03:59:59.035 [INFO ] [main] ProductPage - Check the titles of use cases
+2024-02-21 03:59:59.035 [INFO ] [main] Selenium - Find all elements using given locator By.xpath: //section[contains(@class,"section proposition")]//div[@class="item use-case"]//h3
+2024-02-21 03:59:59.112 [INFO ] [main] ProductPage - Check texts of use cases
+2024-02-21 03:59:59.113 [INFO ] [main] Selenium - Find all elements using given locator By.xpath: //section[contains(@class,"section proposition")]//div[@class="item use-case"]//p
+2024-02-21 03:59:59.179 [INFO ] [main] ProductPage - Scroll to the Xtag section
+2024-02-21 03:59:59.207 [INFO ] [main] ProductPage - Check the text in the header
+2024-02-21 03:59:59.821 [INFO ] [main] Selenium - Find element using given locator By.xpath: //section[contains(@class,"section xtags")]//h2/parent::div/p
+2024-02-21 03:59:59.854 [INFO ] [main] ProductPage - Check the text in the title
+2024-02-21 03:59:59.967 [INFO ] [main] Selenium - Find element using given locator By.xpath: //section[contains(@class,"section xtags")]//h2
+2024-02-21 04:00:00.003 [INFO ] [main] ProductPage - Hover with mouse over the moving row of blocks
+2024-02-21 04:00:00.004 [INFO ] [main] Selenium - Find all elements using given locator By.xpath: //div[contains(@class, "hover-only")]//div[contains(@class, "item-holder")]//h4
+2024-02-21 04:00:12.524 [INFO ] [main] ProductPage - Scroll to the Protection section
+2024-02-21 04:00:12.556 [INFO ] [main] ProductPage - Check text in the subheader
+2024-02-21 04:00:13.158 [INFO ] [main] Selenium - Find element using given locator By.xpath: //section[contains(@class,"section protection")]//h4
+2024-02-21 04:00:13.185 [INFO ] [main] ProductPage - Check text in the header title
+2024-02-21 04:00:13.256 [INFO ] [main] Selenium - Find element using given locator By.xpath: //section[contains(@class,"section protection")]//h2
+2024-02-21 04:00:13.283 [INFO ] [main] ProductPage - Check text in the header title
+2024-02-21 04:00:13.888 [INFO ] [main] Selenium - Find element using given locator By.xpath: //section[contains(@class,"section protection")]//p
+2024-02-21 04:00:13.913 [INFO ] [main] ProductPage - Click on learn more btn
+2024-02-21 04:00:13.982 [INFO ] [main] Selenium - Find element using given locator By.xpath: //div[@class="actions"]/a
+2024-02-21 04:00:14.090 [INFO ] [main] Selenium - Clicked on element using given locator By.xpath: //div[@class="actions"]/a
+2024-02-21 04:00:14.091 [INFO ] [main] ProductPage - Check the url of learn more page
+2024-02-21 04:00:16.167 [INFO ] [main] ProductPage - Move back to the product page
+2024-02-21 04:00:18.254 [INFO ] [main] ProductPage - Scroll to the Demos section
+2024-02-21 04:00:18.451 [INFO ] [main] ProductPage - Play the all videos in the section
+2024-02-21 04:00:18.460 [INFO ] [main] SignInTests - STARTING SIGN UP TEST
+2024-02-21 04:00:21.657 [INFO ] [main] Selenium - Opened page with https://www.vicarius.io/
+2024-02-21 04:00:21.658 [INFO ] [main] SignInTests - Entered to the site
+2024-02-21 04:00:21.919 [INFO ] [main] Selenium - Find element using given locator By.xpath: //div[@class="d-flex"]//a[contains(@href, "sign/in")]
+2024-02-21 04:00:22.087 [INFO ] [main] Selenium - Clicked on element using given locator By.xpath: //div[@class="d-flex"]//a[contains(@href, "sign/in")]
+2024-02-21 04:00:22.087 [INFO ] [main] SignInTests - Clicked on sign in btn
+2024-02-21 04:00:22.089 [INFO ] [main] SignInTests - Click on Login btn without filling fields
+2024-02-21 04:00:23.160 [INFO ] [main] Selenium - Find element using given locator By.xpath: //button[@type="submit"]
+2024-02-21 04:00:23.291 [INFO ] [main] Selenium - Clicked on element using given locator By.xpath: //button[@type="submit"]
+2024-02-21 04:00:23.292 [INFO ] [main] SignInTests - Check the login error message
+2024-02-21 04:00:23.371 [INFO ] [main] Selenium - Find element using given locator By.xpath: //div[@class="error-holder"]
+2024-02-21 04:00:23.422 [INFO ] [main] SignInTests - Check the login error pop up
+2024-02-21 04:00:23.461 [INFO ] [main] Selenium - Find element using given locator By.xpath: //div[@class="notification type-validation"]
+2024-02-21 04:00:23.489 [INFO ] [main] SignInTests - Send only letter to the email field
+2024-02-21 04:00:23.574 [INFO ] [main] Selenium - Find element using given locator By.xpath: //*[contains(@placeholder, "Work")]
+2024-02-21 04:00:23.682 [INFO ] [main] Selenium - Text sent to element using given locator: a
+2024-02-21 04:00:23.683 [INFO ] [main] SignInTests - Check invalid address message in the field
+2024-02-21 04:00:23.738 [INFO ] [main] Selenium - Find element using given locator By.xpath: //div[@class="error-holder"]
+2024-02-21 04:00:23.820 [INFO ] [main] Selenium - Find element using given locator By.xpath: //*[contains(@placeholder, "Work")]
+2024-02-21 04:00:23.890 [INFO ] [main] Selenium - Text deleted from element using given locator: By.xpath: //*[contains(@placeholder, "Work")]
+2024-02-21 04:00:23.890 [INFO ] [main] SignInTests - Send only symbol to the email field
+2024-02-21 04:00:23.948 [INFO ] [main] Selenium - Find element using given locator By.xpath: //*[contains(@placeholder, "Work")]
+2024-02-21 04:00:24.028 [INFO ] [main] Selenium - Text sent to element using given locator: @
+2024-02-21 04:00:24.028 [INFO ] [main] SignInTests - Check invalid address message in the field
+2024-02-21 04:00:24.086 [INFO ] [main] Selenium - Find element using given locator By.xpath: //div[@class="error-holder"]
+2024-02-21 04:00:24.167 [INFO ] [main] Selenium - Find element using given locator By.xpath: //*[contains(@placeholder, "Work")]
+2024-02-21 04:00:24.216 [INFO ] [main] Selenium - Text deleted from element using given locator: By.xpath: //*[contains(@placeholder, "Work")]
+2024-02-21 04:00:24.216 [INFO ] [main] SignInTests - Send valid email address to the field
+2024-02-21 04:00:24.279 [INFO ] [main] Selenium - Find element using given locator By.xpath: //*[contains(@placeholder, "Work")]
+2024-02-21 04:00:24.387 [INFO ] [main] Selenium - Text sent to element using given locator: vasya@vasya.com
+2024-02-21 04:00:24.388 [INFO ] [main] SignInTests - Click on Login btn
+2024-02-21 04:00:25.447 [INFO ] [main] Selenium - Find element using given locator By.xpath: //button[@type="submit"]
+2024-02-21 04:00:25.563 [INFO ] [main] Selenium - Clicked on element using given locator By.xpath: //button[@type="submit"]
+2024-02-21 04:00:25.563 [INFO ] [main] SignInTests - Check the login error pop up
+2024-02-21 04:00:26.724 [INFO ] [main] Selenium - Find element using given locator By.xpath: //*[@id="__layout"]//div[@class="notification type-email"]
+2024-02-21 04:00:26.753 [INFO ] [main] SignInTests - Click on forgot email btn
+2024-02-21 04:00:27.830 [INFO ] [main] Selenium - Find element using given locator By.xpath: //a[@class="forgot"]
+2024-02-21 04:00:27.935 [INFO ] [main] Selenium - Clicked on element using given locator By.xpath: //a[@class="forgot"]
+2024-02-21 04:00:27.935 [INFO ] [main] SignInTests - Check if Thunderbird opened
+2024-02-21 04:00:46.109 [INFO ] [main] SignInTests - Click on start free tiral link
+2024-02-21 04:00:47.173 [INFO ] [main] Selenium - Find element using given locator By.xpath: //a[@href="/sign/up"]
+2024-02-21 04:00:47.252 [INFO ] [main] Selenium - Clicked on element using given locator By.xpath: //a[@href="/sign/up"]
+2024-02-21 04:00:47.252 [INFO ] [main] SignInTests - Check the link
+2024-02-21 04:00:49.265 [INFO ] [main] SignUpTests - STARTING SIGN UP TEST
+2024-02-21 04:00:52.518 [INFO ] [main] Selenium - Opened page with https://www.vicarius.io/
+2024-02-21 04:00:52.518 [INFO ] [main] SignUpTests - Entered to the site
+2024-02-21 04:00:52.631 [INFO ] [main] Selenium - Find element using given locator By.xpath: //div[@class="d-flex"]//a[contains(@href, "sign/up")]
+2024-02-21 04:00:52.877 [INFO ] [main] Selenium - Clicked on element using given locator By.xpath: //div[@class="d-flex"]//a[contains(@href, "sign/up")]
+2024-02-21 04:00:52.878 [INFO ] [main] SignUpTests - Clicked on sign up btn
+2024-02-21 04:00:52.879 [INFO ] [main] SignUpTests - Clicked on chat widget btn
+2024-02-21 04:00:53.088 [INFO ] [main] Selenium - Find element using given locator By.xpath: //button[contains(@class, "IconLauncher")]
+2024-02-21 04:00:53.291 [INFO ] [main] Selenium - Clicked on element using given locator By.xpath: //button[contains(@class, "IconLauncher")]
+2024-02-21 04:00:53.292 [INFO ] [main] SignUpTests - Select the message about free trial
+2024-02-21 04:00:54.357 [INFO ] [main] Selenium - Find element using given locator By.xpath: //div[@data-test-id="quick-reply-group"]//div[contains(.,"Start a free trial")]
+2024-02-21 04:00:54.530 [INFO ] [main] Selenium - Clicked on element using given locator By.xpath: //div[@data-test-id="quick-reply-group"]//div[contains(.,"Start a free trial")]
+2024-02-21 04:00:54.531 [INFO ] [main] SignUpTests - Check the vbot answer
+2024-02-21 04:00:57.191 [INFO ] [main] Selenium - Find element using given locator By.xpath: //div[contains(@aria-label, "vbot says:")]
+2024-02-21 04:00:57.231 [INFO ] [main] SignUpTests - Start new chat
+2024-02-21 04:00:59.811 [INFO ] [main] Selenium - Find element using given locator By.xpath: //a[contains(@data-test-id, "start-new-thread-button")]
+2024-02-21 04:00:59.949 [INFO ] [main] Selenium - Clicked on element using given locator By.xpath: //a[contains(@data-test-id, "start-new-thread-button")]
+2024-02-21 04:00:59.949 [INFO ] [main] SignUpTests - Select the message about demo
+2024-02-21 04:01:01.016 [INFO ] [main] Selenium - Find element using given locator By.xpath: //div[@data-test-id="quick-reply-group"]//div[contains(.,"Schedule a demo")]
+2024-02-21 04:01:01.151 [INFO ] [main] Selenium - Clicked on element using given locator By.xpath: //div[@data-test-id="quick-reply-group"]//div[contains(.,"Schedule a demo")]
+2024-02-21 04:01:01.151 [INFO ] [main] SignUpTests - Check the vbot answer
+2024-02-21 04:01:03.268 [INFO ] [main] Selenium - Find element using given locator By.xpath: //div[contains(@aria-label, "vbot says:")]
+2024-02-21 04:01:03.297 [INFO ] [main] SignUpTests - Start new chat
+2024-02-21 04:01:05.882 [INFO ] [main] Selenium - Find element using given locator By.xpath: //a[contains(@data-test-id, "start-new-thread-button")]
+2024-02-21 04:01:06.091 [INFO ] [main] Selenium - Clicked on element using given locator By.xpath: //a[contains(@data-test-id, "start-new-thread-button")]
+2024-02-21 04:01:06.091 [INFO ] [main] SignUpTests - Select the message about talk with team
+2024-02-21 04:01:07.156 [INFO ] [main] Selenium - Find element using given locator By.xpath: //div[@data-test-id="quick-reply-group"]//div[contains(.,"Talk with our team")]
+2024-02-21 04:01:07.290 [INFO ] [main] Selenium - Clicked on element using given locator By.xpath: //div[@data-test-id="quick-reply-group"]//div[contains(.,"Talk with our team")]
+2024-02-21 04:01:07.290 [INFO ] [main] SignUpTests - Check the vbot answer
+2024-02-21 04:01:08.878 [INFO ] [main] Selenium - Find element using given locator By.xpath: //div[contains(@aria-label, "vbot says:")]
+2024-02-21 04:01:08.902 [INFO ] [main] SignUpTests - Clicked on chat widget btn, close
+2024-02-21 04:01:09.966 [INFO ] [main] Selenium - Find element using given locator By.xpath: //button[@aria-label="Close live chat"]
+2024-02-21 04:01:10.081 [INFO ] [main] Selenium - Clicked on element using given locator By.xpath: //button[@aria-label="Close live chat"]
+2024-02-21 04:01:10.085 [INFO ] [main] SignUpTests - STARTING SIGN UP TEST
+2024-02-21 04:01:12.888 [INFO ] [main] Selenium - Opened page with https://www.vicarius.io/
+2024-02-21 04:01:12.889 [INFO ] [main] SignUpTests - Entered to the site
+2024-02-21 04:01:13.004 [INFO ] [main] Selenium - Find element using given locator By.xpath: //div[@class="d-flex"]//a[contains(@href, "sign/up")]
+2024-02-21 04:01:13.255 [INFO ] [main] Selenium - Clicked on element using given locator By.xpath: //div[@class="d-flex"]//a[contains(@href, "sign/up")]
+2024-02-21 04:01:13.255 [INFO ] [main] SignUpTests - Clicked on sign up btn
+2024-02-21 04:01:13.257 [INFO ] [main] SignUpTests - Click on Frequently Asked Questions link
+2024-02-21 04:01:15.428 [INFO ] [main] SignUpTests - Check the link in the new opened tab
+2024-02-21 04:01:17.126 [INFO ] [main] SignUpTests - STARTING SIGN UP TEST
+2024-02-21 04:01:20.083 [INFO ] [main] Selenium - Opened page with https://www.vicarius.io/
+2024-02-21 04:01:20.083 [INFO ] [main] SignUpTests - Entered to the site
+2024-02-21 04:01:20.218 [INFO ] [main] Selenium - Find element using given locator By.xpath: //div[@class="d-flex"]//a[contains(@href, "sign/up")]
+2024-02-21 04:01:20.517 [INFO ] [main] Selenium - Clicked on element using given locator By.xpath: //div[@class="d-flex"]//a[contains(@href, "sign/up")]
+2024-02-21 04:01:20.517 [INFO ] [main] SignUpTests - Clicked on sign up btn
+2024-02-21 04:01:20.519 [INFO ] [main] SignUpTests - Click on continue btn without filling fields
+2024-02-21 04:01:21.588 [INFO ] [main] Selenium - Find element using given locator By.xpath: //button[@type="submit"]
+2024-02-21 04:01:21.732 [INFO ] [main] Selenium - Clicked on element using given locator By.xpath: //button[@type="submit"]
+2024-02-21 04:01:21.733 [INFO ] [main] SignUpTests - Check the sign up error pop up
+2024-02-21 04:01:21.787 [INFO ] [main] Selenium - Find element using given locator By.xpath: //*[@class="notification type-validation"]
+2024-02-21 04:01:21.828 [INFO ] [main] SignUpTests - Check error message in all fields
+2024-02-21 04:01:21.876 [INFO ] [main] Selenium - Find element using given locator By.xpath: //*[contains(@placeholder, "First")]/parent::div/following-sibling::div[@class="error"]
+2024-02-21 04:01:21.963 [INFO ] [main] Selenium - Find element using given locator By.xpath: //*[contains(@placeholder, "First")]/parent::div/following-sibling::div[@class="error"]
+2024-02-21 04:01:22.085 [INFO ] [main] Selenium - Find element using given locator By.xpath: //*[contains(@placeholder, "Last")]/parent::div/following-sibling::div[@class="error"]
+2024-02-21 04:01:22.216 [INFO ] [main] Selenium - Find element using given locator By.xpath: //*[contains(@placeholder, "Last")]/parent::div/following-sibling::div[@class="error"]
+2024-02-21 04:01:22.277 [INFO ] [main] Selenium - Find element using given locator By.xpath: //*[contains(@placeholder, "Work")]/parent::div/following-sibling::div[@class="error"]
+2024-02-21 04:01:22.343 [INFO ] [main] Selenium - Find element using given locator By.xpath: //*[contains(@placeholder, "Work")]/parent::div/following-sibling::div[@class="error"]
+2024-02-21 04:01:22.401 [INFO ] [main] Selenium - Find element using given locator By.xpath: //*[contains(@placeholder, "Company")]/parent::div/following-sibling::div[@class="error"]
+2024-02-21 04:01:22.468 [INFO ] [main] Selenium - Find element using given locator By.xpath: //*[contains(@placeholder, "Company")]/parent::div/following-sibling::div[@class="error"]
+2024-02-21 04:01:22.492 [INFO ] [main] SignUpTests - Refresh the page
+2024-02-21 04:01:24.179 [INFO ] [main] SignUpTests - Set all fields empty
+2024-02-21 04:01:24.267 [INFO ] [main] Selenium - Find element using given locator By.xpath: //*[contains(@placeholder, "First")]
+2024-02-21 04:01:24.450 [INFO ] [main] Selenium - Clicked on element using given locator By.xpath: //*[contains(@placeholder, "First")]
+2024-02-21 04:01:24.575 [INFO ] [main] Selenium - Find element using given locator By.xpath: //*[contains(@placeholder, "Last")]
+2024-02-21 04:01:24.659 [INFO ] [main] Selenium - Clicked on element using given locator By.xpath: //*[contains(@placeholder, "Last")]
+2024-02-21 04:01:24.733 [INFO ] [main] Selenium - Find element using given locator By.xpath: //*[contains(@placeholder, "Work")]
+2024-02-21 04:01:24.830 [INFO ] [main] Selenium - Clicked on element using given locator By.xpath: //*[contains(@placeholder, "Work")]
+2024-02-21 04:01:24.901 [INFO ] [main] Selenium - Find element using given locator By.xpath: //*[contains(@placeholder, "Company")]
+2024-02-21 04:01:24.998 [INFO ] [main] Selenium - Clicked on element using given locator By.xpath: //*[contains(@placeholder, "Company")]
+2024-02-21 04:01:25.074 [INFO ] [main] Selenium - Find element using given locator By.xpath: //h2
+2024-02-21 04:01:25.151 [INFO ] [main] Selenium - Clicked on element using given locator By.xpath: //h2
+2024-02-21 04:01:25.151 [INFO ] [main] SignUpTests - Check error message in all fields
+2024-02-21 04:01:25.185 [INFO ] [main] Selenium - Find element using given locator By.xpath: //*[contains(@placeholder, "First")]/parent::div/following-sibling::div[@class="error"]
+2024-02-21 04:01:25.260 [INFO ] [main] Selenium - Find element using given locator By.xpath: //*[contains(@placeholder, "First")]/parent::div/following-sibling::div[@class="error"]
+2024-02-21 04:01:25.317 [INFO ] [main] Selenium - Find element using given locator By.xpath: //*[contains(@placeholder, "Last")]/parent::div/following-sibling::div[@class="error"]
+2024-02-21 04:01:25.400 [INFO ] [main] Selenium - Find element using given locator By.xpath: //*[contains(@placeholder, "Last")]/parent::div/following-sibling::div[@class="error"]
+2024-02-21 04:01:25.459 [INFO ] [main] Selenium - Find element using given locator By.xpath: //*[contains(@placeholder, "Work")]/parent::div/following-sibling::div[@class="error"]
+2024-02-21 04:01:25.533 [INFO ] [main] Selenium - Find element using given locator By.xpath: //*[contains(@placeholder, "Work")]/parent::div/following-sibling::div[@class="error"]
+2024-02-21 04:01:25.582 [INFO ] [main] Selenium - Find element using given locator By.xpath: //*[contains(@placeholder, "Company")]/parent::div/following-sibling::div[@class="error"]
+2024-02-21 04:01:25.653 [INFO ] [main] Selenium - Find element using given locator By.xpath: //*[contains(@placeholder, "Company")]/parent::div/following-sibling::div[@class="error"]
+2024-02-21 04:01:25.676 [INFO ] [main] SignUpTests - Send only letter to the email field
+2024-02-21 04:01:25.736 [INFO ] [main] Selenium - Find element using given locator By.xpath: //*[contains(@placeholder, "Work")]
+2024-02-21 04:01:25.842 [INFO ] [main] Selenium - Text sent to element using given locator: a
+2024-02-21 04:01:25.842 [INFO ] [main] SignUpTests - Check valid email message in the field
+2024-02-21 04:01:25.901 [INFO ] [main] Selenium - Find element using given locator By.xpath: //*[contains(@placeholder, "Work")]/parent::div/following-sibling::div[@class="error"]
+2024-02-21 04:01:25.927 [INFO ] [main] SignUpTests - Fill all fields with valid values besides email field
+2024-02-21 04:01:25.988 [INFO ] [main] Selenium - Find element using given locator By.xpath: //*[contains(@placeholder, "First")]
+2024-02-21 04:01:26.109 [INFO ] [main] Selenium - Text sent to element using given locator: Vasya
+2024-02-21 04:01:26.175 [INFO ] [main] Selenium - Find element using given locator By.xpath: //*[contains(@placeholder, "Last")]
+2024-02-21 04:01:26.285 [INFO ] [main] Selenium - Text sent to element using given locator: Vasya
+2024-02-21 04:01:26.347 [INFO ] [main] Selenium - Find element using given locator By.xpath: //*[contains(@placeholder, "Company")]
+2024-02-21 04:01:26.452 [INFO ] [main] Selenium - Text sent to element using given locator: Vasya
+2024-02-21 04:01:26.515 [INFO ] [main] Selenium - Find element using given locator By.xpath: //*[contains(@placeholder, "Work")]
+2024-02-21 04:01:26.600 [INFO ] [main] Selenium - Text deleted from element using given locator: By.xpath: //*[contains(@placeholder, "Work")]
+2024-02-21 04:01:26.601 [INFO ] [main] SignUpTests - Send only symbol to the email field
+2024-02-21 04:01:26.665 [INFO ] [main] Selenium - Find element using given locator By.xpath: //*[contains(@placeholder, "Work")]
+2024-02-21 04:01:26.743 [INFO ] [main] Selenium - Text sent to element using given locator: @
+2024-02-21 04:01:26.743 [INFO ] [main] SignUpTests - Check valid email message in the field
+2024-02-21 04:01:26.798 [INFO ] [main] Selenium - Find element using given locator By.xpath: //*[contains(@placeholder, "Work")]/parent::div/following-sibling::div[@class="error"]
+2024-02-21 04:01:26.825 [INFO ] [main] SignUpTests - Send valid email to the email field
+2024-02-21 04:01:26.881 [INFO ] [main] Selenium - Find element using given locator By.xpath: //*[contains(@placeholder, "Work")]
+2024-02-21 04:01:26.932 [INFO ] [main] Selenium - Text deleted from element using given locator: By.xpath: //*[contains(@placeholder, "Work")]
+2024-02-21 04:01:26.986 [INFO ] [main] Selenium - Find element using given locator By.xpath: //*[contains(@placeholder, "Company")]
+2024-02-21 04:01:27.110 [INFO ] [main] Selenium - Text sent to element using given locator: vasya@vasya.com
