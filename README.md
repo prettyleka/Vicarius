@@ -14,3 +14,5 @@ JAVA 17, MAVEN, TestNG, Selenium, log4j, lombok, WebDriverManager(bonigarcia/web
 Added 2 types of log file: html and log
 
 To run the tests, please use TestNG.xml file (testNG/TestNG.xml)
+
+It is important to note that these tests do not cover all testing options on this site and only represent a few of the most common options.
